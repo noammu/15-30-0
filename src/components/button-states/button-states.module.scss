@@ -1,0 +1,14 @@
+.root {
+}
+.butt {
+  &:active {
+    background-color: purple;
+  }
+  &:disabled {
+    background-color: #9f9f39;
+  }
+  &:disabled:hover {
+    background-color: pink;
+  }
+  background-color: #9f3939;
+}

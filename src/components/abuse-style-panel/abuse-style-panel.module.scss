@@ -1,0 +1,165 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  min-width: 222px;
+  min-height: 99px;
+}
+.img {
+  width: 150px;
+  height: 50px;
+  order: 4;
+}
+.muhahaha {
+  height: 10em;
+  display: block;
+  max-width: 600%;
+  max-height: 666rem;
+  padding-top: 3em;
+  padding-left: 12%;
+  padding-bottom: 02px;
+  margin: 15px 20px 15px;
+  font-style: italic;
+  font-family: Monaco, monospace;
+  font-size: 2rem;
+  font-weight: 600;
+  color: cyan;
+  direction: ltr;
+  border: 5px double #ffffff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 3em;
+  border-bottom-right-radius: 3em;
+  border-bottom-left-radius: 25%;
+  outline: solid yellow;
+  background-image: radial-gradient(circle at 50% 50%, #df1a1a 0%, #670c0c 100%);
+  background-color: transparent;
+  background-position: 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.flexy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: visible;
+  background-color: green;
+  box-shadow: -3.71px 5.94px 44px 8px #d0bfbf;
+}
+.brrrrr {
+  margin: 12px;
+}
+.ininputput {
+  outline: blue solid;
+  background-color: #ff2727;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #b400ff;
+  opacity: 0.3;
+}
+.anisan {
+  width: 374px;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+.a {
+}
+.sdf {
+}
+.bvcvb {
+}
+.yhuy {
+}
+.bnm {
+}
+.xxwsh {
+}
+.hmm {
+}
+.jkiu {
+}
+.rrr {
+}
+.wfsd {
+}
+.xxc {
+}
+.nklyuyd {
+}
+.swefvg {
+}
+.ukyuj {
+}
+.g5 {
+}
+.hy7 {
+}
+.ddwf32j {
+}
+.hgjmhi {
+}
+.vbyy {
+}
+.hbgdfh846 {
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .muhahaha {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .muhahaha {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .muhahaha {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .muhahaha {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .muhahaha {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .muhahaha {
+    font-size: 0.25rem;
+  }
+}

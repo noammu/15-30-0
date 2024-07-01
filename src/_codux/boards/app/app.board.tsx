@@ -8,4 +8,5 @@ export default createBoard({
         windowWidth: 1024,
         windowHeight: 768,
     },
+    tags: ['pikachu', 'app', 'Pikachu', 'PIKACHU'],
 });
