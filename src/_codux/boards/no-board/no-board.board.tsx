@@ -5,4 +5,8 @@ export default createBoard({
     name: 'NoBoard',
     Board: () => <NoBoard />,
     isSnippet: true,
+    environmentProps: {
+        canvasWidth: 339,
+        canvasHeight: 146,
+    },
 });

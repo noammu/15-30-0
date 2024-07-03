@@ -1,2 +1,28 @@
 .root {
+  width: 55px;
+  height: 33px;
+}
+
+@media screen and (width <= 430px) {
+  .root {
+    background-color: pink;
+  }
+}
+
+@media screen and (430px < width < 980px) {
+  .root {
+    background-color: cyan;
+  }
+}
+
+@media screen and (width <= 430px) {
+  .root {
+    color: red;
+  }
+}
+
+@media screen and (980px < width) {
+  .root {
+    background-color: gold;
+  }
 }

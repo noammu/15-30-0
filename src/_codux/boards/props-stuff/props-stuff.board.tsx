@@ -17,9 +17,15 @@ export const Yael: Person = {
     },
 };
 
+const nod = <h4>nodddd</h4>;
+
+const mystr = 'blibla';
+
+const mynum = 878.454;
+
 export default createBoard({
     name: 'PropsStuff',
-    Board: () => <PropsStuff numnum={55} str="Hamsa" objy={Shimi} />,
+    Board: () => <PropsStuff numnum={mynum} str={mystr} objy={Shimi} nod={nod} />,
     isSnippet: true,
     tags: ['props', 'abuse', 'abuse props'],
 });
