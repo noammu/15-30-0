@@ -1,0 +1,41 @@
+.root {
+  width: 555px;
+  height: 444px;
+  min-width: 222px;
+  min-height: 222px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 22px 44px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cyan;
+}
+.ewdfr {
+  order: -1;
+  align-self: start;
+  margin: 6px;
+  padding-top: 6em;
+  padding-right: 33px;
+  padding-bottom: 22%;
+  padding-left: 55px;
+}
+.hhh {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  font-size: 77px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: Georgia, serif;
+  color: #ff3c3c;
+  text-align: center;
+  box-shadow: inset -2.57px 1.55px 22px 27px #8062f9;
+  cursor: wait;
+}
+.jj {
+  border: 33px solid #f100ff;
+  border-radius: 22em;
+}
