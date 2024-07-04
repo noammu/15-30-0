@@ -5,4 +5,7 @@ export default createBoard({
     name: 'Release',
     Board: () => <Release />,
     isSnippet: true,
+    environmentProps: {
+        canvasBackgroundColor: '#6bf53b',
+    },
 });
