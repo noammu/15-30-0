@@ -7,7 +7,7 @@ export default createBoard({
     isSnippet: true,
     environmentProps: {
         canvasWidth: 224,
-        canvasHeight: 64,
+        canvasHeight: 646,
     },
     tags: ['pikachu', 'add this component', 'nothing else'],
 });
