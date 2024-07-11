@@ -9,5 +9,9 @@ export interface ButtonStatesProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const ButtonStates = ({ className, disabled }: ButtonStatesProps) => {
-    return <button className={ButtonStates_module.butt} disabled={disabled}>Button</button>;
+    return (
+        <button className={ButtonStates_module.butt} disabled={disabled}>
+            Button
+        </button>
+    );
 };

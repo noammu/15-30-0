@@ -6,7 +6,8 @@ export default createBoard({
     Board: () => <AbuseStylePanel />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1000,
+        windowWidth: 1024,
+        windowHeight: 768,
     },
     tags: ['abuse', 'abuse style', 'styling', 'media queries', 'crazy'],
 });

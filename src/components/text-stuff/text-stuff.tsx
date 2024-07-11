@@ -25,6 +25,7 @@ export const TextStuff = ({ className }: TextStuffProps) => {
                     <option>Watermelon</option>
                 </select>
             </div>
+            <option>ddddfd</option>
             <textarea />
             <li>{'sadssda'}</li>
         </div>

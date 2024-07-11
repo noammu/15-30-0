@@ -1,7 +1,9 @@
 import classNames from 'classnames';
 import styles from './third-party.module.scss';
-import { Button, Icon, Rating, Statistic, Dropdown } from 'semantic-ui-react';
+import { Button, Rating, Statistic, Dropdown } from 'semantic-ui-react';
 import { useState } from 'react';
+import { NoBoard } from '../no-board/no-board';
+import { Nostylersss } from '../nostylersss/nostylersss';
 
 export interface ThirdPartyProps {
     className?: string;
@@ -19,13 +21,11 @@ export const ThirdParty = ({ className }: ThirdPartyProps) => {
 
     return (
         <div className={classNames(styles.root, className)}>
+            <Nostylersss />
+            <NoBoard />
             <Button color="pink" onClick={handleOnClick}>
                 Click To download
             </Button>
-            <Statistic>
-                <Statistic.Value>{downloads}</Statistic.Value>
-                <Statistic.Label>Downloads</Statistic.Label>
-            </Statistic>
             <Rating icon="heart" defaultRating={5} maxRating={10} />
             <Dropdown text="File">
                 <Dropdown.Menu>
@@ -42,9 +42,6 @@ export const ThirdParty = ({ className }: ThirdPartyProps) => {
                     <Dropdown.Item text="E-mail Collaborators" />
                 </Dropdown.Menu>
             </Dropdown>
-            <Button color="facebook">
-                <Icon name="facebook" /> Facebook
-            </Button>
             <Button basic color="olive">
                 Olive
             </Button>
