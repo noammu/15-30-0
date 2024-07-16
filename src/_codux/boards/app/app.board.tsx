@@ -5,7 +5,7 @@ export default createBoard({
     name: 'App',
     Board: () => <App />,
     environmentProps: {
-        windowWidth: 1024,
+        windowWidth: 1030,
         windowHeight: 768,
     },
     tags: ['pikachu', 'app', 'Pikachu', 'PIKACHU'],

@@ -6,8 +6,10 @@ export default createBoard({
     Board: () => {
         return (
             <>
+                <button>Button</button>
                 <ButtonStates disabled={true} />
                 <ButtonStates disabled={false} />
+                <button>Button</button>
             </>
         );
     },
